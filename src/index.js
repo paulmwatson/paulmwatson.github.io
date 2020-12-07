@@ -1,1 +1,1 @@
-// Stub for Webpack
+require('./index.scss');
