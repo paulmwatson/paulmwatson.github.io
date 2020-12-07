@@ -6,7 +6,8 @@ module.exports = {
     new CopyPlugin({
       patterns: [
         { from: 'src/index.html' },
-        { from: 'src/favicon.ico' }
+        { from: 'src/favicon.ico' },
+        { from: 'src/CNAME' }
       ],
     }),
   ],
