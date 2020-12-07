@@ -9,16 +9,23 @@
     content="The website of Paul Watson, a professional remote web-developer in Cape Town, South Africa.">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css"
     integrity="sha256-WLKGWSIJYerRN8tbNGtXWVYnUM5wMJTXD8eG4NtGcDM=" crossorigin="anonymous">
+  <style>
+    @media only screen and (max-width: 600px) {
+      .is-padding-top-1-65-rem {
+        padding-top: 1.65rem;
+      }
+    }
+  </style>
 </head>
 
 <body>
-  <section class="section">
+  <section class="section is-padding-top-1-65-rem">
     <div class="container">
-      <div class="columns is-multiline is-centered is-gapless is-mobile">
-        <div class="column is-half-tablet is-full-mobile">
-          <div class="card animate__animated animate__swing">
+      <div class="columns is-centered is-gapless">
+        <div class="column is-half">
+          <div class="card">
             <div class="card-content is-size-5 is-size-6-mobile">
-              <h1 class="title has-text-centered is-size-5-mobile">
+              <h1 class="title has-text-centered is-size-4-mobile">
                 Sawubona, molo, hello, dia dhuit
               </h1>
               <p class="content">My name is Paul Watson and I have been a professional web-developer since <abbr
@@ -37,57 +44,27 @@
                   href="https://www.redhat.com/en/about/press-releases/red-hat-acquire-feedhenry-adds-enterprise-mobile-application-platform"
                   rel="noopener">FeedHenry</a> (co-founder, acquired by Red Hat), and <a href="https://changex.org"
                   rel="noopener">ChangeX</a>.</p>
-              <p class="content">Now that you know a bit about me why not <a href="mailto:hello@paulmwatson.com">say
+              <p class="content">Now that you know a bit about me why not <a href="mailto:hello@paulmwatson.com"
+                  title="Email hello@paulmwatson.com">say
                   hello</a>.</p>
             </div>
             <footer class="card-footer">
-              <a class="card-footer-item fa-rotate-10-on-hover" href="mailto:hello@paulmwatson.com" rel="noopener"
-                title="Email hello@paulmwatson.com">
-                <span class="icon">
-                  <i class="fas fa-paper-plane" aria-hidden="true"></i>
-                  <span class="sr-only">
-                    Email
-                  </span>
-                </span>
+              <a class="card-footer-item" href="https://twitter.com/paulmwatson" rel="noopener" title="Twitter">
+                Twitter
               </a>
-
-              <a class="card-footer-item fa-rotate-10-on-hover" href="https://twitter.com/paulmwatson" rel="noopener"
-                title="Twitter">
-                <span class="icon">
-                  <i class="fab fa-twitter" aria-hidden="true"></i>
-                  <span class="sr-only">
-                    Twitter
-                  </span>
-                </span>
+              <a class="card-footer-item" href="https://github.com/paulmwatson" rel="noopener" title="GitHub">
+                GitHub
               </a>
-
-              <a class="card-footer-item fa-rotate-10-on-hover" href="https://github.com/paulmwatson" rel="noopener"
-                title="GitHub">
-                <span class="icon">
-                  <i class="fab fa-github" aria-hidden="true"></i>
-                  <span class="sr-only">
-                    GitHub
-                  </span>
-                </span>
+              <a class="card-footer-item" href="https://www.linkedin.com/in/paulmwatson" rel="noopener"
+                title="LinkedIn">
+                LinkedIn
               </a>
-
-              <a class="card-footer-item fa-rotate-10-on-hover" href="https://www.linkedin.com/in/paulmwatson"
-                rel="noopener" title="LinkedIn">
-                <span class="icon">
-                  <i class="fab fa-linkedin" aria-hidden="true"></i>
-                  <span class="sr-only">
-                    LinkedIn
-                  </span>
-                </span>
-              </a>
-
             </footer>
           </div>
         </div>
       </div>
     </div>
   </section>
-  <script src="https://kit.fontawesome.com/56844e4bef.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
