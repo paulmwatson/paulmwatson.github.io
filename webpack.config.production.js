@@ -14,7 +14,7 @@ module.exports = merge(baseConfig, {
       inline: false,
       minify: true,
       extract: false,
-      width: 1024,
+      width: 1325,
       height: 768,
       penthouse: {
         blockJSRequests: false,
