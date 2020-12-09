@@ -1,9 +1,10 @@
 {
   "CNAME": "CNAME",
+  "critical.css": "index.css",
+  "critical.js": "critical.js",
   "favicon.ico": "favicon.ico",
-  "index.html": "index.html",
-  "main.css": "index.css",
-  "main.js": "main.js",
+  "icon_512.png": "images/icon_512.png",
+  "index.js": "index.js",
   "photo-flowers-1-397w.webp": "images/photo-flowers-1-397w.webp",
   "photo-flowers-1-583w.webp": "images/photo-flowers-1-583w.webp",
   "photo-flowers-1-672w.webp": "images/photo-flowers-1-672w.webp",

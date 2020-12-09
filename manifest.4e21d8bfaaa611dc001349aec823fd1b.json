@@ -1,0 +1,53 @@
+{
+  "icons": [
+    {
+      "src": "icon_1024x1024.cbaaab86d202f0683d93d27d25e5d1b6.webp",
+      "sizes": "1024x1024",
+      "type": "image/webp",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icon_512x512.41756a09d1dcccec485d594bf7ab626c.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "icon_512x512.cbaaab86d202f0683d93d27d25e5d1b6.webp",
+      "sizes": "512x512",
+      "type": "image/webp"
+    },
+    {
+      "src": "icon_384x384.cbaaab86d202f0683d93d27d25e5d1b6.webp",
+      "sizes": "384x384",
+      "type": "image/webp"
+    },
+    {
+      "src": "icon_256x256.cbaaab86d202f0683d93d27d25e5d1b6.webp",
+      "sizes": "256x256",
+      "type": "image/webp"
+    },
+    {
+      "src": "icon_192x192.cbaaab86d202f0683d93d27d25e5d1b6.webp",
+      "sizes": "192x192",
+      "type": "image/webp"
+    },
+    {
+      "src": "icon_128x128.cbaaab86d202f0683d93d27d25e5d1b6.webp",
+      "sizes": "128x128",
+      "type": "image/webp"
+    },
+    {
+      "src": "icon_96x96.cbaaab86d202f0683d93d27d25e5d1b6.webp",
+      "sizes": "96x96",
+      "type": "image/webp"
+    }
+  ],
+  "name": "Paul Watson - Professional Web Developer",
+  "short_name": "Paul Watson",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": ".",
+  "description": "The website of Paul Watson, a professional remote web-developer in Cape Town, South Africa.",
+  "background_color": "#3273dc",
+  "theme_color": "#3273dc"
+}
