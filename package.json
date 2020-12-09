@@ -5,7 +5,8 @@
   "main": "src/index.js",
   "scripts": {
     "dev": "webpack serve --mode=development --config webpack.config.development.js",
-    "build": "NODE_ENV=production webpack --config webpack.config.production.js"
+    "build": "NODE_ENV=production webpack --config webpack.config.production.js",
+    "lighthouse": "npm run build; cd dist; python3 -m http.server 8082 & lighthouse http://localhost:8082 --budget-path=../budget.json --view"
   },
   "repository": {
     "type": "git",
