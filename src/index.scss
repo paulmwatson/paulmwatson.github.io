@@ -2,6 +2,17 @@
 @import "bulma";
 //@import "~bulma/bulma";
 
-.is-padding-top-1-55-rem {
+.section {
     padding-top: 1.55rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .section {
+        padding: 2px 0 3rem 0;
+
+        .card {
+            box-shadow: none;
+            border-radius: 0;
+        }
+    }
 }
