@@ -3,11 +3,10 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Paul Watson - Professional remote web-developer</title>
   <meta name="description"
     content="The website of Paul Watson, a professional remote web-developer in Cape Town, South Africa.">
-  <link defer rel="stylesheet" href="/index.css">
 </head>
 
 <body>
@@ -27,7 +26,8 @@
                   title="SASS, SCSS">CSS</abbr>, <abbr
                   title="ECMAScript ES 5/6/2015, jQuery, or Stimulus">JavaScript</abbr>, <abbr
                   title="An open source object-relational database system">PostgreSQL</abbr>, and Ruby on Rails. I am
-                also capable in <abbr title="Flask, Connexion">Python</abbr> and <abbr title="Tensorflow and PyTorch">Machine
+                also capable in <abbr title="Flask, Connexion">Python</abbr> and <abbr
+                  title="Tensorflow and PyTorch">Machine
                   Learning</abbr>.</p>
               <p class="content">Currently I am the <abbr title="Chief Technical Officer">CTO</abbr> of <a
                   href="https://calibermediaworks.com" rel="noopener">CaliberAI</a>. I have worked with <a
@@ -79,6 +79,7 @@
       </div>
     </div>
   </section>
+  <%= process.env.NODE_ENV == 'production' ? '<script src="index.js"></script>' : false%>
 </body>
 
 </html>
