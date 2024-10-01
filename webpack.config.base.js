@@ -35,7 +35,8 @@ module.exports = {
         { from: 'src/images', to: 'images' },
         { from: 'src/favicon.ico' },
         { from: 'src/CNAME' },
-        { from: 'src/robots.txt' }
+        { from: 'src/robots.txt' },
+        { from: 'src/ai-policy.txt' }
       ],
     }),
     new WebpackAssetsManifest({
